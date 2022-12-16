@@ -1,0 +1,85 @@
+@media screen and (max-width:862px) {
+    #navbar>ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: absolute;
+        top: 100%;
+        left: -100%;
+        width: 100%;
+        height: 51vh;
+        padding: 20px 1px;
+        background: black;
+        transition: 0.3s ease-in-out;
+    }
+    #nav-link.active{
+        left:0%;
+     }
+
+    #navbar li a{
+        font-size:1.4rem
+     }
+    .login {
+        justify-content: center;
+    }
+
+    #hamburger {
+        display: flex;
+        align-items: center;
+        padding-right: 20px;
+
+    }
+
+    #navbar {
+        justify-content: space-between;
+    }
+    .client{
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:800px){
+   .service{
+   flex-wrap: wrap;
+   gap: 20px;
+   }
+   .box{
+    width:44vw;
+    margin:15px auto;
+   }
+}
+@media screen and (max-width:667px){
+    #footer-section .mediacontainer{
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+@media screen and (max-width:560px){
+    .box{
+        width:80vw;
+    }
+}
+@media screen and (max-width:450px){
+    #footer-section .mediacontainer{
+       flex-wrap:wrap;
+       justify-content: space-around;
+    }
+    #footer-section{
+        height:75vh;
+    }
+    .footer-item{
+        padding-bottom: 0px;
+    }
+    .client img{
+        width: 60px;
+        height: auto;
+    }
+    #footer-section .emailcontainer{
+        width: 70vw;
+     }
+     .emailcontainer>label{
+        display:none;
+     }
+     .contact>form{
+        width:76vw;
+     }
+}
